@@ -2,6 +2,13 @@
 name = "port_scanner"
 version = "0.1.0"
 edition = "2021"
+authors = ["Morteza Shojaei <mshojaei179@gmail.com>"]
+description = "A fast, concurrent port scanner with blockchain and web service detection"
+repository = "https://github.com/morteza-shojaei/port-scanner"
+license = "MIT"
+keywords = ["network", "security", "port-scanner", "ethereum", "blockchain"]
+categories = ["command-line-utilities", "network-programming"]
+readme = "README.md"
 
 [dependencies]
 tokio = { version = "1.36", features = ["full"] }
