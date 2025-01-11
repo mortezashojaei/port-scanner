@@ -1,6 +1,6 @@
 [package]
 name = "port-scanner-rs"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Morteza Shojaei <mshojaei179@gmail.com>"]
 description = "A fast, concurrent port scanner with blockchain and web service detection"
