@@ -67,13 +67,13 @@ cargo build --release
 Basic usage:
 
 ```bash
-port-scanner --target <host>
+port-scanner-rs--target <host>
 ```
 
 Advanced options:
 
 ```bash
-port-scanner --target <host> --start-port 1 --end-port 1024 --timeout 1000 --concurrent-limit 100
+port-scanner-rs--target <host> --start-port 1 --end-port 1024 --timeout 1000 --concurrent-limit 100
 ```
 
 ### Examples
@@ -81,19 +81,19 @@ port-scanner --target <host> --start-port 1 --end-port 1024 --timeout 1000 --con
 Scan a specific IP:
 
 ```bash
-port-scanner --target 192.168.1.1
+port-scanner-rs--target 192.168.1.1
 ```
 
 Scan a domain:
 
 ```bash
-port-scanner --target ethereum.org
+port-scanner-rs--target ethereum.org
 ```
 
 Scan specific port range:
 
 ```bash
-port-scanner --target 192.168.1.1 --start-port 8545 --end-port 8549
+port-scanner-rs--target 192.168.1.1 --start-port 8545 --end-port 8549
 ```
 
 ## Security Considerations
