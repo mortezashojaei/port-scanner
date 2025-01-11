@@ -1,0 +1,14 @@
+[package]
+name = "port_scanner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.36", features = ["full"] }
+clap = { version = "4.5", features = ["derive"] }
+futures = "0.3"
+thiserror = "1.0"
+colored = "2.1"
+trust-dns-resolver = "0.23"
+ipnetwork = "0.20"
+indicatif = "0.17.8"
